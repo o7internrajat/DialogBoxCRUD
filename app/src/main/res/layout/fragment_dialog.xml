@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    tools:context=".DialogFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Menu"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/etItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item"
+        android:background="@drawable/layoutshape"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layoutshape"
+        android:hint="Description"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        />
+
+
+
+</LinearLayout>
